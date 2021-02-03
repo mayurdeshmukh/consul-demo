@@ -26,7 +26,7 @@ SECRET_KEY = '8g+m=$k4afo#11qm&af!g)j5i#2uayep&)hagq4mbg57#%@wx1'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
+    '*',
     os.environ.get('LOAD_BALANCER'),
 ]
 
